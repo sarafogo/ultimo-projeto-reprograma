@@ -1,0 +1,55 @@
+ main { 
+    color: #545b73;
+    background-color: #fedde4;
+    letter-spacing: 0.5px;
+    
+}
+
+
+.first-section {
+    padding: 45px;
+}
+
+.first-section mark {
+    background-color: #c22727;
+    color: #f2e4e8;
+   
+}
+
+.diferenca {
+    text-align: end;
+    margin-top: 45px;
+}
+
+.diferenca mark {
+    color: #fedde4;
+    background-color: #f85b7d;
+}
+
+.conexao {
+    margin-top: 45px;
+}
+
+.second-section {
+    margin: 65px;
+    text-align: center;
+    color: #22243c;
+}
+
+.quem-somos {
+    margin: 45px;
+    
+}
+
+.mulheres {
+    padding: 45px;
+    
+}
+
+.mulheres mark {
+    background-color: #FF587D;
+
+
+}
+
+ 

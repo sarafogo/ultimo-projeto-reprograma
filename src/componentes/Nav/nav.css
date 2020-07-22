@@ -1,0 +1,34 @@
+.navbar {
+    background-color: #4C526B;
+     width: 100%;
+    
+}
+.navbar-link-div{
+    display: flex;
+    align-items: flex-end;
+}
+
+
+
+.navbar-text {
+    color: #ffae03;
+    font-weight: bold;
+    
+}
+
+.navbar-text:hover {
+    color: #2BB5AC;
+    text-decoration: none;
+}
+
+.navbar-link {
+    color: #E2C3AA;
+    margin: 8px;
+    
+}
+
+.navbar-link:hover {
+    text-decoration: none;
+    color: #E2C3AA;
+    font-weight: bold;
+}
