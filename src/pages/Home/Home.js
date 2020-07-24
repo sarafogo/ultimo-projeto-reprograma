@@ -63,6 +63,7 @@ const Home = () => {
                 <div class="quem-somos">
                     <h5>Quem somos?</h5>
                     <p>O Conexão Vênus surge da revolta de três amigas de como os homens sempre dizem "ah! eu não sabia", e da sociedade passar pano pra isso. </p>
+                    <p>O conexão vênus surge da ideia de três amigas de como ajudar mulheres a se informar e se protejer nesses momentos de desagradáveis. Cada uma com sua vivência prática e de estudo, trazendo de forma enriquecedora informações pra montar essa cartilha aos poucos.</p>
                 </div>
                 <div class="mulheres">
                     <div class="container">

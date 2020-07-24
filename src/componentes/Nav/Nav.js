@@ -22,13 +22,13 @@ const NavB = (props) => {
   return (
     <div className="navbar-div">
 
-      <Navbar className="navbar"  expand="md">
+      <Navbar className="navbar" dark expand="md">
         <div>
-          <NavbarBrand >
+          <NavbarBrand>
             <Link to="/" className="navbar-text">Conexão Vênus</Link>
           </NavbarBrand>
         </div>
-        <NavbarToggler onClick={toggle}  />
+        <NavbarToggler onClick={toggle}/>
         <div className="navbar-link-div">
 
           <Collapse isOpen={isOpen} navbar >

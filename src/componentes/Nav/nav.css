@@ -8,16 +8,13 @@
     align-items: flex-end;
 }
 
-
-
 .navbar-text {
-    color: #ffae03;
+    color: #ffae03 !important;
     font-weight: bold;
     
 }
-
 .navbar-text:hover {
-    color: #2BB5AC;
+    color: #2BB5AC !important;
     text-decoration: none;
 }
 
@@ -35,4 +32,13 @@
 
 li{
     text-decoration: none;
+}
+
+
+@media only screen and (min-width: 760px) {
+    .navbar-text {
+        color: #ffae03;
+        font-weight: bold;
+        
+    }
 }
