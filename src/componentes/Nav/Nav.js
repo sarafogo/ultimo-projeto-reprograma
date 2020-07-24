@@ -5,7 +5,8 @@ import {
   NavbarToggler,
   NavbarBrand,
   Nav,
-  NavItem
+  NavItem,
+
 
 } from 'reactstrap';
 
@@ -20,25 +21,27 @@ const NavB = (props) => {
   const toggle = () => setIsOpen(!isOpen);
 
   return (
+
+
     <div className="navbar-div">
 
-      <Navbar className="navbar" dark expand="md">
+      <Navbar className="navbar" expand="md">
         <div>
-          <NavbarBrand>
+          <NavbarBrand >
             <Link to="/" className="navbar-text">Conexão Vênus</Link>
-          </NavbarBrand>
+            </NavbarBrand>
         </div>
-        <NavbarToggler onClick={toggle}/>
+        <NavbarToggler onClick={toggle} />
         <div className="navbar-link-div">
 
-          <Collapse isOpen={isOpen} navbar >
-            <Nav className="mr-auto" navbar >
+          <Collapse isOpen={isOpen} navbar>
+            <Nav className="mr-auto" navbar>
               <NavItem>
 
                 <Link to="/maisinformacoes" className="navbar-link">O que é assédio sexual?</Link>
               </NavItem>
               <NavItem>
-                <Link to="/informacoes-uteis" className="navbar-link" >Informações úteis</Link>
+                <Link to="/linksuteis" className="navbar-link" >Links úteis</Link>
               </NavItem>
             </Nav>
 
