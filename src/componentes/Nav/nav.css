@@ -1,7 +1,7 @@
 .navbar {
-    background-color: #4C526B;
+    background-color: #6b5180;
      width: 100%;
-    
+     color: #ffae03;
 }
 .navbar-link-div{
     display: flex;
@@ -31,4 +31,8 @@
     text-decoration: none;
     color: #E2C3AA;
     font-weight: bold;
+}
+
+li{
+    text-decoration: none;
 }

@@ -1,55 +1,129 @@
- main { 
-    color: #545b73;
-    background-color: #fedde4;
-    letter-spacing: 0.5px;
-    
-}
 
 
-.first-section {
-    padding: 45px;
-}
+ .first-section {
+     padding: 60px 80px;
+     text-align: justify;
+ }
 
-.first-section mark {
-    background-color: #c22727;
-    color: #f2e4e8;
-   
-}
+ .oQueE mark {
+     background-color: #FFAE03;
+     color: #6b5180;
+ }
 
-.diferenca {
-    text-align: end;
-    margin-top: 45px;
-}
+ .notYF mark {
+     background-color: #FFAE03;
+     color: #6b5180;
+ }
 
-.diferenca mark {
-    color: #fedde4;
-    background-color: #f85b7d;
-}
+ ul {
+     list-style: none;
+ }
 
-.conexao {
-    margin-top: 45px;
-}
+ .listaa .lista:before {
+     content: '\2022';
+     margin: 5px;
+     color: #c22727;
+     
+ }
 
-.second-section {
-    margin: 65px;
-    text-align: center;
-    color: #22243c;
-}
-
-.quem-somos {
-    margin: 45px;
-    
-}
-
-.mulheres {
-    padding: 45px;
-    
-}
-
-.mulheres mark {
-    background-color: #FF587D;
-
-
-}
-
+.exemplo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+ }
+ .div-container1{
+     width: 60%;
+     margin: 5px;
+ }
+ .div-container2{
+     margin: 10px;
+     width: 30%;
+     height: 80%;
+     font-size: 0.8rem;
+     border-width: 1px;
+     border-style: outset;
+     border-color: #c22727;
+ }
  
+ .container2-text {
+     padding: 7px;
+ }
+
+ .btn {
+     margin-left: 45px;
+    
+ }
+
+ .diferenca {
+     text-align: end;
+     margin-top: 45px;
+ }
+
+ .diferenca mark {
+     color: #6b5180;
+     background-color: #FFAE03;
+ }
+
+ .conexao {
+     margin-top: 45px;
+ }
+
+ .conexao mark {
+     background-color: #ffae03;
+     color: #6b5180;
+ }
+
+ .second-section {
+     margin: 65px;
+     text-align: center;
+     color: #533f63;
+ }
+
+ .second-section-text {
+     font-size: 0.8rem;
+ }
+
+ .quem-somos {
+     margin: 45px;
+ }
+
+ .mulheres {
+     padding: 45px;
+ }
+
+ .mulheres mark {
+     background-color: #FF587D;
+ }
+
+ .mulheres-box {
+     text-align: center;
+ }
+
+ .img-mulheres {
+     height: 230px;
+     width: auto;
+     margin: 5px;
+     border-radius:  2px;
+ }
+
+
+ @media (max-width: 768px) {
+    .first-section {
+        padding: 20px;
+    }
+
+     .exemplo {
+         flex-direction: column;
+         padding: 5px;
+     }
+
+     .div-container1 {
+         width: 100%;
+     }
+
+     .div-container2 {
+         width: 100%;
+     }
+
+
+ }

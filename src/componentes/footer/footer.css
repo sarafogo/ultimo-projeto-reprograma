@@ -1,5 +1,20 @@
 footer {
-    background-color: #535A76;
-    color: #e79755;
+    background-color: #6b5180;
+    color: #ffae03;
     text-align: center;
+}
+
+.link-footer {
+    color: #ffae03;
+}
+
+.link-footer:hover{
+    color: #ffbb28;
+    text-decoration: none;
+}
+
+img{
+    width: 12px;
+    color: #ffae03;
+   
 }
