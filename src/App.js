@@ -1,12 +1,15 @@
 import React from 'react';
+
 import './App.css';
 import Nav from './componentes/Nav/Nav';
+
+
 import Footer from './componentes/footer/Footer';
 import Home from './pages/Home/Home'
 import MaisInformacoes from './pages/sobre/MaisInformacoes'
 
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import InformacoesUteis from './pages/InformacoesUteis/InformacoesUteis';
+import LinksUteis from './pages/LinksUteis/LinksUteis';
 
 
 function App() {
@@ -14,12 +17,12 @@ function App() {
     <BrowserRouter>
     <Switch>
 
-      <div className="base">
+      <div>
         <Nav />
 
         <Route exact path="/" render={() => <Home />} />
         <Route path="/maisinformacoes" render={() => <MaisInformacoes />} />
-        <Route path="/informacoes-uteis" render={() => <InformacoesUteis /> } />
+        <Route path="/linksuteis" render={() => <LinksUteis /> } />
         <Footer />
       </div>
     </Switch>
