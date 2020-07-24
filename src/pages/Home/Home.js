@@ -37,7 +37,7 @@ const Home = () => {
                         </div>
                     </div>
 
-                    <p className="notYF"> Se essas atitude ou outras fazem você se sentir intimidada, envergonhada ou ameaçada configura assédio. <p>Lembre-se de que se qualquer uma dessas situações acontecer ou se já aconteceu com você,<mark>a culpa nunca será sua.</mark></p></p>
+                    <p className="notYF"> Se essas atitudes ou outras fazem você se sentir intimidada, envergonhada ou ameaçada, configura assédio. <p>Lembre-se de que, se qualquer uma dessas situações acontecer ou se já aconteceu com você,<mark>a culpa nunca será sua.</mark></p></p>
 
                     <Link to="/maisinformacoes">
                         <Button outline className="btn">Ler mais sobre</Button>{' '}
@@ -62,8 +62,8 @@ const Home = () => {
             <section>
                 <div class="quem-somos">
                     <h5>Quem somos?</h5>
-                    <p>O Conexão Vênus surge da revolta de três amigas de como os homens sempre dizem "ah! eu não sabia", e da sociedade passar pano pra isso. </p>
-                    <p>O conexão vênus surge da ideia de três amigas de como ajudar mulheres a se informar e se protejer nesses momentos de desagradáveis. Cada uma com sua vivência prática e de estudo, trazendo de forma enriquecedora informações pra montar essa cartilha aos poucos.</p>
+                    <p>O Conexão Vênus surge da revolta de três amigas de como os homens sempre dizem "ah! eu não sabia", e da sociedade "passar pano" pra isso. </p>
+                    <p>O conexão vênus surge da ideia de três amigas de como ajudar mulheres a se informar e se protejer nesses momentos desagradáveis. Cada uma com sua vivência prática e de estudo, trazendo de forma enriquecedora informações pra montar essa cartilha aos poucos.</p>
                 </div>
                 <div class="mulheres">
                     <div class="container">
